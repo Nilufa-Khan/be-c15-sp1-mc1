@@ -9,6 +9,7 @@ import org.springframework.context.annotation.Configuration;
 public class AppConfig {
     @Bean
     public RouteLocator myRoutes(RouteLocatorBuilder builder){
+
         return builder.routes()
                 .route(p->p
                         .path("/userdata/**")
