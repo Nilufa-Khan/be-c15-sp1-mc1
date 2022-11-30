@@ -29,6 +29,7 @@
 			<scope>test</scope>
 		</dependency>
 	</dependencies>
+
 	<modules>
 		<module>UserAuthenticationService</module>
 		<module>UserTrackService</module>
