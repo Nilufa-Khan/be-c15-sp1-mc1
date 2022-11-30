@@ -13,6 +13,7 @@ import java.util.Map;
 public class SecurityTokenGeneratorImpl implements SecurityTokenGenerator{
     @Override
     public Map<String, String> generateToken(User user) {
+
         String jwToken = null;
         jwToken = Jwts.builder()
                 .setSubject(user.getUserId())

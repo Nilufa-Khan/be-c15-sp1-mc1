@@ -7,4 +7,5 @@ import com.question.UserAuthenticationService.exception.UserNotFoundException;
 public interface UserService {
     User addUser(User user) throws UserAlreadyExistsException;
     User findByUserIdAndPassword(String userId,String password) throws UserNotFoundException;
+
 }
